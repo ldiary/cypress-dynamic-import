@@ -1,0 +1,23 @@
+{
+  "name": "cypress-dynamic-import",
+  "version": "1.0.0",
+  "description": "Enable dynamic import in Cypress tests",
+  "main": "index.js",
+  "repository": "https://github.com/ldiary/cypress-dynamic-import.git",
+  "author": "Ernesto D. Luzon Jr. <edluzonjr@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "cy": "cypress run",
+    "cy:dev": "cypress run --headed",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@cypress/webpack-preprocessor": "^5.2.0",
+    "babel-loader": "^8.1.0",
+    "cypress": "^4.5.0",
+    "webpack": "^4.43.0"
+  }
+}
